@@ -13,7 +13,7 @@ export default class Header extends Component {
         </div>{/* /.col */}
         <div className="col-sm-6">
           <ol className="breadcrumb float-sm-right">
-            <li className="breadcrumb-item"><a href="#">Home</a></li>
+            <li className="breadcrumb-item"><a  href="no_url">Home</a></li>
             <li className="breadcrumb-item active">Dashboard v2</li>
           </ol>
         </div>{/* /.col */}
@@ -95,11 +95,11 @@ export default class Header extends Component {
                     <i className="fas fa-wrench" />
                   </button>
                   <div className="dropdown-menu dropdown-menu-right" role="menu">
-                    <a href="#" className="dropdown-item">Action</a>
-                    <a href="#" className="dropdown-item">Another action</a>
-                    <a href="#" className="dropdown-item">Something else here</a>
-                    <a className="dropdown-divider" />
-                    <a href="#" className="dropdown-item">Separated link</a>
+                    <a  href="no_url" className="dropdown-item">Action</a>
+                    <a  href="no_url" className="dropdown-item">Another action</a>
+                    <a  href="no_url" className="dropdown-item">Something else here</a>
+                    <a href="no_url"  className="dropdown-divider" />
+                    <a  href="no_url" className="dropdown-item">Separated link</a>
                   </div>
                 </div>
                 <button type="button" className="btn btn-tool" data-card-widget="remove">
@@ -288,7 +288,7 @@ export default class Header extends Component {
                         <span className="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                       </div>
                       {/* /.direct-chat-infos */}
-                      <img className="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image" />
+                      <img className="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="" />
                       {/* /.direct-chat-img */}
                       <div className="direct-chat-text">
                         Is this template really for free? That's unbelievable!
@@ -303,7 +303,7 @@ export default class Header extends Component {
                         <span className="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                       </div>
                       {/* /.direct-chat-infos */}
-                      <img className="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image" />
+                      <img className="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="" />
                       {/* /.direct-chat-img */}
                       <div className="direct-chat-text">
                         You better believe it!
@@ -318,7 +318,7 @@ export default class Header extends Component {
                         <span className="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
                       </div>
                       {/* /.direct-chat-infos */}
-                      <img className="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image" />
+                      <img className="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="" />
                       {/* /.direct-chat-img */}
                       <div className="direct-chat-text">
                         Working with AdminLTE on a great new app! Wanna join?
@@ -333,7 +333,7 @@ export default class Header extends Component {
                         <span className="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
                       </div>
                       {/* /.direct-chat-infos */}
-                      <img className="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image" />
+                      <img className="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="" />
                       {/* /.direct-chat-img */}
                       <div className="direct-chat-text">
                         I would love to.
@@ -347,8 +347,8 @@ export default class Header extends Component {
                   <div className="direct-chat-contacts">
                     <ul className="contacts-list">
                       <li>
-                        <a href="#">
-                          <img className="contacts-list-img" src="dist/img/user1-128x128.jpg" />
+                        <a  href="no_url">
+                          <img className="contacts-list-img" src="dist/img/user1-128x128.jpg" alt=""/>
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
                               Count Dracula
@@ -361,8 +361,8 @@ export default class Header extends Component {
                       </li>
                       {/* End Contact Item */}
                       <li>
-                        <a href="#">
-                          <img className="contacts-list-img" src="dist/img/user7-128x128.jpg" />
+                        <a  href="no_url">
+                          <img className="contacts-list-img" src="dist/img/user7-128x128.jpg" alt=""/>
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
                               Sarah Doe
@@ -375,8 +375,8 @@ export default class Header extends Component {
                       </li>
                       {/* End Contact Item */}
                       <li>
-                        <a href="#">
-                          <img className="contacts-list-img" src="dist/img/user3-128x128.jpg" />
+                        <a  href="no_url">
+                          <img className="contacts-list-img" src="dist/img/user3-128x128.jpg" alt=""/>
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
                               Nadia Jolie
@@ -389,8 +389,8 @@ export default class Header extends Component {
                       </li>
                       {/* End Contact Item */}
                       <li>
-                        <a href="#">
-                          <img className="contacts-list-img" src="dist/img/user5-128x128.jpg" />
+                        <a  href="no_url">
+                          <img className="contacts-list-img" src="dist/img/user5-128x128.jpg" alt=""/>
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
                               Nora S. Vans
@@ -403,8 +403,8 @@ export default class Header extends Component {
                       </li>
                       {/* End Contact Item */}
                       <li>
-                        <a href="#">
-                          <img className="contacts-list-img" src="dist/img/user6-128x128.jpg" />
+                        <a  href="no_url">
+                          <img className="contacts-list-img" src="dist/img/user6-128x128.jpg" alt=""/>
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
                               John K.
@@ -417,8 +417,8 @@ export default class Header extends Component {
                       </li>
                       {/* End Contact Item */}
                       <li>
-                        <a href="#">
-                          <img className="contacts-list-img" src="dist/img/user8-128x128.jpg" />
+                        <a  href="no_url">
+                          <img className="contacts-list-img" src="dist/img/user8-128x128.jpg" alt=""/>
                           <div className="contacts-list-info">
                             <span className="contacts-list-name">
                               Kenneth M.
@@ -468,43 +468,43 @@ export default class Header extends Component {
                 <div className="card-body p-0">
                   <ul className="users-list clearfix">
                     <li>
-                      <img src="dist/img/user1-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Alexander Pierce</a>
+                      <img src="dist/img/user1-128x128.jpg" alt="" />
+                      <a className="users-list-name"  href="no_url">Alexander Pierce</a>
                       <span className="users-list-date">Today</span>
                     </li>
                     <li>
-                      <img src="dist/img/user8-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Norman</a>
+                      <img src="dist/img/user8-128x128.jpg" alt="" />
+                      <a className="users-list-name"  href="no_url">Norman</a>
                       <span className="users-list-date">Yesterday</span>
                     </li>
                     <li>
-                      <img src="dist/img/user7-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Jane</a>
+                      <img src="dist/img/user7-128x128.jpg" alt=" " />
+                      <a className="users-list-name"  href="no_url">Jane</a>
                       <span className="users-list-date">12 Jan</span>
                     </li>
                     <li>
-                      <img src="dist/img/user6-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">John</a>
+                      <img src="dist/img/user6-128x128.jpg" alt=" " />
+                      <a className="users-list-name"  href="no_url">John</a>
                       <span className="users-list-date">12 Jan</span>
                     </li>
                     <li>
-                      <img src="dist/img/user2-160x160.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Alexander</a>
+                      <img src="dist/img/user2-160x160.jpg" alt=" " />
+                      <a className="users-list-name"  href="no_url">Alexander</a>
                       <span className="users-list-date">13 Jan</span>
                     </li>
                     <li>
-                      <img src="dist/img/user5-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Sarah</a>
+                      <img src="dist/img/user5-128x128.jpg" alt=" " />
+                      <a className="users-list-name"  href="no_url">Sarah</a>
                       <span className="users-list-date">14 Jan</span>
                     </li>
                     <li>
-                      <img src="dist/img/user4-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Nora</a>
+                      <img src="dist/img/user4-128x128.jpg" alt=" " />
+                      <a className="users-list-name"  href="no_url">Nora</a>
                       <span className="users-list-date">15 Jan</span>
                     </li>
                     <li>
-                      <img src="dist/img/user3-128x128.jpg" alt="User Image" />
-                      <a className="users-list-name" href="#">Nadia</a>
+                      <img src="dist/img/user3-128x128.jpg" alt=" " />
+                      <a className="users-list-name"  href="no_url">Nadia</a>
                       <span className="users-list-date">15 Jan</span>
                     </li>
                   </ul>
@@ -512,7 +512,7 @@ export default class Header extends Component {
                 </div>
                 {/* /.card-body */}
                 <div className="card-footer text-center">
-                  <a href="javascript::">View All Users</a>
+                  {/* <a href="javascript::">View All Users</a> */}
                 </div>
                 {/* /.card-footer */}
               </div>
@@ -610,8 +610,8 @@ export default class Header extends Component {
             </div>
             {/* /.card-body */}
             <div className="card-footer clearfix">
-              <a href="javascript:void(0)" className="btn btn-sm btn-info float-left">Place New Order</a>
-              <a href="javascript:void(0)" className="btn btn-sm btn-secondary float-right">View All Orders</a>
+              <a  className="btn btn-sm btn-info float-left">Place New Order</a>
+              <a  className="btn btn-sm btn-secondary float-right">View All Orders</a>
             </div>
             {/* /.card-footer */}
           </div>
@@ -694,7 +694,7 @@ export default class Header extends Component {
             <div className="card-footer bg-white p-0">
               <ul className="nav nav-pills flex-column">
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <a  href="no_url" className="nav-link">
                     United States of America
                     <span className="float-right text-danger">
                       <i className="fas fa-arrow-down text-sm" />
@@ -702,7 +702,7 @@ export default class Header extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <a  href="no_url" className="nav-link">
                     India
                     <span className="float-right text-success">
                       <i className="fas fa-arrow-up text-sm" /> 4%
@@ -710,7 +710,7 @@ export default class Header extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <a  href="no_url" className="nav-link">
                     China
                     <span className="float-right text-warning">
                       <i className="fas fa-arrow-left text-sm" /> 0%
@@ -740,10 +740,10 @@ export default class Header extends Component {
               <ul className="products-list product-list-in-card pl-2 pr-2">
                 <li className="item">
                   <div className="product-img">
-                    <img src="dist/img/default-150x150.png" alt="Product Image" className="img-size-50" />
+                    <img src="dist/img/default-150x150.png" alt="" className="img-size-50" />
                   </div>
                   <div className="product-info">
-                    <a href="javascript:void(0)" className="product-title">Samsung TV
+                    <a  className="product-title">Samsung TV
                       <span className="badge badge-warning float-right">$1800</span></a>
                     <span className="product-description">
                       Samsung 32" 1080p 60Hz LED Smart HDTV.
@@ -753,10 +753,10 @@ export default class Header extends Component {
                 {/* /.item */}
                 <li className="item">
                   <div className="product-img">
-                    <img src="dist/img/default-150x150.png" alt="Product Image" className="img-size-50" />
+                    <img src="dist/img/default-150x150.png" alt="" className="img-size-50" />
                   </div>
                   <div className="product-info">
-                    <a href="javascript:void(0)" className="product-title">Bicycle
+                    <a   className="product-title">Bicycle
                       <span className="badge badge-info float-right">$700</span></a>
                     <span className="product-description">
                       26" Mongoose Dolomite Men's 7-speed, Navy Blue.
@@ -766,10 +766,10 @@ export default class Header extends Component {
                 {/* /.item */}
                 <li className="item">
                   <div className="product-img">
-                    <img src="dist/img/default-150x150.png" alt="Product Image" className="img-size-50" />
+                    <img src="dist/img/default-150x150.png" alt="" className="img-size-50" />
                   </div>
                   <div className="product-info">
-                    <a href="javascript:void(0)" className="product-title">
+                    <a   className="product-title">
                       Xbox One <span className="badge badge-danger float-right">
                         $350
                       </span>
@@ -782,10 +782,10 @@ export default class Header extends Component {
                 {/* /.item */}
                 <li className="item">
                   <div className="product-img">
-                    <img src="dist/img/default-150x150.png" alt="Product Image" className="img-size-50" />
+                    <img src="dist/img/default-150x150.png" alt="" className="img-size-50" />
                   </div>
                   <div className="product-info">
-                    <a href="javascript:void(0)" className="product-title">PlayStation 4
+                    <a   className="product-title">PlayStation 4
                       <span className="badge badge-success float-right">$399</span></a>
                     <span className="product-description">
                       PlayStation 4 500GB Console (PS4)
@@ -797,7 +797,7 @@ export default class Header extends Component {
             </div>
             {/* /.card-body */}
             <div className="card-footer text-center">
-              <a href="javascript:void(0)" className="uppercase">View All Products</a>
+              <a   className="uppercase">View All Products</a>
             </div>
             {/* /.card-footer */}
           </div>
