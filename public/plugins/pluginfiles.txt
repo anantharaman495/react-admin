@@ -1,0 +1,3 @@
+The Plugins should include, the necessary dependencies in the local inorder for the project to run with out any errors.
+Since there are large number of dependencies used the same cannot be uploaded.
+The same can be found in the following link: https://github.com/ColorlibHQ/AdminLTE/tree/master/plugins
